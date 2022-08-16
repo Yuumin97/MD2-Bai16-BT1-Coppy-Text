@@ -24,11 +24,9 @@ public class Copy {
         }
         finally {
             if (source != null) {
-            }else {
                 source.close();
             }
             if (target != null) {
-            }else {
                 target.close();
             }
         }
